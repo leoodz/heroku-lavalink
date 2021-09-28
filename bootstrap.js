@@ -57,7 +57,7 @@ function startLavalink() {
 
 
 console.log("Fetching latest Lavalink.jar url...")
-fetch("https://api.github.com/repos/freyacodes/Lavalink/releases/latest")
+fetch("https://api.github.com/repos/Cog-Creators/Lavalink-Jars/releases/latest")
     .then(res => res.json())
     .then(json => {
         if(json.assets[0] && json.assets[0].browser_download_url){
